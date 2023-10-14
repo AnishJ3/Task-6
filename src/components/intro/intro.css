@@ -1,0 +1,95 @@
+
+
+#intro
+{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro-content
+{
+    height: 100vh;
+    width: 100vw;
+    padding:2rem;
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.title
+{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.intro-name
+{
+    color: red;
+    font-size: 50px;
+    
+}
+.introText
+{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.text
+{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.IntroPara
+{
+    width: 40%;
+    line-height: 25px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.socials
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding:0;
+}
+
+.socials li
+{
+    padding: 5px 10px;
+    
+}
+
+.socials li img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.hireme
+{
+    border: 2px solid red;
+    background-color: transparent;
+    color: red;
+    padding:10px 10px;
+    font-size: 20px;
+    width:15%;
+    border-radius: 20px;
+}
+
+.hireme:hover
+{
+    background-color: red;
+    color: white;
+}
